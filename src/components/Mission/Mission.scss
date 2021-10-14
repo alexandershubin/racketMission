@@ -1,0 +1,40 @@
+.mission-list {
+  padding: 0;
+  max-width: 900px;
+  width: 100%;
+  margin: 20px auto;
+  list-style: none;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__content {
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 50px;
+  }
+}
+
+.mission-btn {
+  max-width: 900px;
+  width: 100%;
+  margin: 20px auto;
+
+  &__up,
+  &__down {
+    background: none;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
